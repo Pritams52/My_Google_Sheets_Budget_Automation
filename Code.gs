@@ -102,7 +102,7 @@ function formatMonthSheet_(sheetToFormat) {
   
   //payDay = "" 
   payDay = Browser.inputBox('Enter day number of your second pay day', Browser.Buttons.OK_CANCEL);
-  range = sheet.getRange("A15:A22");
+  range = sheet.getRange("A14:A21");
   range.setValue(payDay);
   
   range = sheet.getRange("A5:C26");
